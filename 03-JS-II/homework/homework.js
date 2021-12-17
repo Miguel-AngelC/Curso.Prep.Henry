@@ -158,9 +158,11 @@ function tablaDelSeis(){
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
   var arrayTabla6 = [];
-  for (var i = 0; i <11; i++){
+  for (var i = 0; i < 11; i++){
     arrayTabla6.push(i * 6)
-  } return arrayTabla6;
+  }
+  return arrayTabla6;
+   
   
 }
 
@@ -169,7 +171,7 @@ function tieneTresDigitos(numero){
   //Escribe tu código aquí
   if (numero > 99 && numero < 1000){
     return true
-  } else return false
+  }return false
  
 }
 
@@ -180,11 +182,12 @@ function doWhile(numero) {
   var a = numero;
   var i = 0;
   do {
-    i + i + 1;
+    i = i + 1;
     a = a + 5;
   }
-  while (i < 8);
-  return a;
+  while (i < 8){
+  } return a; 
+  
 }
 
 
